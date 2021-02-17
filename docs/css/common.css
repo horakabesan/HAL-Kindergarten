@@ -1,0 +1,468 @@
+@charset "utf-8";
+
+.log_back{
+  position: relative;
+}
+
+.log_back img{
+  width: 100%;
+  height: auto;
+}
+
+.header_logo{
+  position: absolute;
+  top: 3%;
+  right: 0;
+  left: 1%;
+  bottom: 0;
+  margin: 0 auto;
+  width: 10%;
+  height: auto;
+}
+
+.header_logo img{
+  width: 90%;
+  height: auto;
+}
+
+.header_nav{
+  position: absolute;
+  top: 23%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 30px 30px 30px 30px;
+  width: 80%;
+  height: 17%;
+}
+
+.header_logo ul{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header_nav ul li {
+  width: 12%;
+  padding: 20px 0 0 24px;
+  text-align: center;
+  float: left;
+}
+
+.header_nav ul li img{
+  width: 60px;
+  height: auto;
+}
+
+.header_nav ul li img:hover{
+  transform: rotate(-30deg);
+}
+
+.header_nav ul li a{
+  font-size: 0.8rem;
+  padding-top: 10px;
+  color: #89B13A;
+  text-decoration: none;
+}
+
+.header_nav ul li a:hover{
+  color: green;
+}
+
+.header_nav ul li a p{
+  padding-top: 10px;
+  line-height: 1.0rem;
+}
+
+
+
+
+
+
+.slide {
+  position: relative;
+  width: 90%;
+  height: 700px;
+  margin: -2px auto;
+  overflow: hidden;
+  border: 5px solid #89B13A;
+  box-sizing: border-box;
+  border-radius: 30px 30px 30px 30px;
+}
+
+@keyframes slideshow{
+  0%{
+    opacity: 0;
+  }
+  10%{
+    opacity: 1;
+  }
+  28%{
+    opacity: 1
+  }
+  38%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
+
+}
+
+.slide img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  animation :slideshow 24s linear infinite;
+}
+
+.slide img:nth-child(2){
+  animation-delay: 8s;
+}
+
+.slide img:last-child{
+  animation-delay: 16s;
+}
+
+.policy{
+  position: relative;
+}
+
+.policy img{
+  width: 100%;
+  height: auto;
+}
+
+.policy div{
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  width: 50%;
+  height: 300px;
+  color: #555;
+  font-family: 'ヒラギノ丸ゴ ProN';
+  line-height: 1.5rem;
+}
+
+.policy div h1{
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.policy div p{
+  font-size: 1.0rem;
+}
+
+
+
+
+.schooling{
+  margin: 100px 0;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.tree_left{
+  float: left;
+  width: 50%;
+}
+
+.sch_img{
+  text-align: center;
+  margin: 30px 0 10px;
+}
+
+.sch_img img{
+  width: 500px;
+  height: auto;
+}
+
+.sch_text1{
+  position: absolute;
+  top: 36%;
+  left: 10%;
+  width: 450px;
+  color: #555;
+  font-family: 'ヒラギノ丸ゴ ProN';
+}
+
+.sch_text1 h1{
+  font-size: 1.5rem;
+  padding-bottom: 1.0rem;
+}
+
+.sch_text1 p{
+  font-size: 1.0rem;
+  line-height: 1.5rem;
+}
+
+.sch_text1 p span{
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+
+.sch_text2{
+  position: absolute;
+  top: 36%;
+  right: 10%;
+  width: 450px;
+  font-family: 'ヒラギノ丸ゴ ProN';
+  color: #555;
+}
+
+.sch_text2 h1{
+  font-size: 1.5rem;
+  padding-bottom: 1.0rem;
+}
+
+.sch_text2 p{
+  font-size: 1.0rem;
+  line-height: 1.5rem;
+}
+
+.tree_img{
+  text-align: center;
+}
+
+.tree_img img{
+  width: 700px;
+  height: auto;
+}
+
+.tree_right{
+  float: left;
+  width: 50%;
+}
+
+
+
+
+
+
+
+.info_all{
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.border_red{
+  border: 1px solid #E45560;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #e45560;
+}
+
+.border_green{
+  border: 1px solid #8CB05B;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #8CB05B;
+}
+
+.border_orenzi{
+  border: 1px solid #F4954D;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #F4954D;
+}
+
+.border_bule{
+  border: 1px solid #004B9E;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #004B9E;
+}
+
+
+.info_img img{
+  width:200px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.info_text{
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: left;
+  width: 195px;
+  height: 160px;
+  font-family: 'ヒラギノ丸ゴ ProN';
+  line-height: 1.5rem;
+  color: #fff;
+}
+
+.info_text h1{
+  width: 195px;
+  font-size: 1.0rem;
+}
+
+.info_text p{
+  width: 195px;
+  font-size: 0.8rem;
+}
+
+.info_kotira img{
+  width: 242px;
+  height: auto;
+  position: absolute;
+  top: 85%;
+}
+
+.position_1 img{left: 2%;}
+.position_2 img{left: 27%;}
+.position_3 img{right: 27%;}
+.position_4 img{right: 2%;}
+
+
+
+
+
+
+.topic{
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  text-align: center;
+  position: relative;
+}
+
+.topic img{
+  width: 70%;
+  height: auto;
+}
+
+.topic h2{
+  position: absolute;
+  top: 38%;
+  right: 73%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2rem;
+  color: #555;
+  font-family: 'ヒラギノ丸ゴ ProN';
+}
+
+.topic ul{
+  position: absolute;
+  top: 41%;
+  left: 17.5%;
+  list-style: none;
+  width: 65%;
+  margin: 0 auto;
+  line-height: 1.5em;
+  color: #555;
+  font-family: 'ヒラギノ丸ゴ ProN';
+}
+
+.topic ul li{
+  text-align: left;
+  font-size: 1.0rem;
+  padding: 10px 0 10px 20px;
+  border-top: 2px #89B13A solid;
+  border-bottom: 2px #89B13A solid;
+}
+
+.topic ul li+ li{
+  border-top: 0;
+  border-bottom: 2px #89B13A solid;
+}
+
+.topic ul li span{
+  font-size: 0.8rem;
+}
+
+
+
+
+.footer_navAll{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  margin-top: 90px;
+  padding: 40px;
+  background-image: url("../images/footer_back.png");
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.footer_logo img{
+  width: 60%;
+  height: auto;
+}
+
+.footer_nav{
+  width: 400px;
+  padding: 30px 30px 20px 30px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  background-color: #fff;
+  opacity: 0.8;
+}
+
+.footer_nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  font-family: 'ヒラギノ丸ゴ ProN';
+}
+
+.footer_nav ul li{
+  padding: 5px 20px 15px 20px;
+}
+
+.footer_nav ul li a{
+  text-decoration: none;
+  color: #555;
+}
+
+.footer_nav ul li a:hover{
+  color: #89B13A;
+}
+
+.footer_seikyuu{
+  width: 300px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  background-color: #fff;
+  opacity: 0.8;
+}
+
+.footer_seikyuu div{
+  padding-top: 35px;
+  text-align: center;
+}
+
+.footer_seikyuu  div a{
+  text-decoration: none;
+  color: #555;
+}
+
+.footer_seikyuu div a:hover{
+  color: #89B13A;
+}
+ 
+.footer_seikyuu div a span{
+  font-size: 0.8rem;
+}
+
+.footer_copy{
+  background-color: #89B13A;
+  font-family: 'ヒラギノ丸ゴ ProN';
+  color: #fff;
+  padding: 20px;
+  font-size: 1.0rem;
+  text-align: center;
+}
